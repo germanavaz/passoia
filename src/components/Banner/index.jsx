@@ -1,6 +1,11 @@
+import "./banner.scss";
+import banner from "../../assets/Banner.png";
+
 function Banner() {
     return (
-        <h1>Banner</h1>
+        <section className="banner">
+            <img src={banner} alt="Imagem de uma mulher utilizando o produto revitalift" />
+        </section>
     )
 }
 export default Banner;
