@@ -24,7 +24,7 @@ function Lancamentos(){
 
 
     return(
-        <section>
+        <section id="lancamentos">
             <h2>APROVEITE OS LANÇAMENTOS</h2>
 
             <div className="img-lateral">

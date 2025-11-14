@@ -6,9 +6,9 @@ function Header() {
         <header>
             <img src={logo} alt="Logomarca Passoia" />
             <ul>
-                <li>LOOKS</li>
-                <li>LANÇAMENTOS</li>
-                <li>NOVIDADE</li>
+                <li><a href="#looks">LOOKS</a></li>
+                <li><a href="#lancamentos">LANÇAMENTOS</a></li>
+                <li><a href="#novidades">NOVIDADES</a></li>
             </ul>
         </header>
     )
