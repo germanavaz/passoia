@@ -1,0 +1,44 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    width: 100vw;
+    text-align: center;
+}
+
+.img-lateral {
+    display: flex;
+    flex-direction: column;
+    height: 418px;
+    justify-content: space-between;
+    padding: 20px;
+
+    img {
+        max-width: 130px;
+    }
+}
+
+.img-cor {
+    height: 418px;
+}
+
+.card-lancamentos {
+    max-width: 500px;
+    height: 378px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 30px;
+    padding: 20px;
+
+    .sub {
+        font-size: 10px;
+    }
+
+    button {
+        background-color: transparent;
+        border: none;
+    }
+}
