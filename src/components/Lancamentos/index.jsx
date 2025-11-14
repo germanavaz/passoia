@@ -27,7 +27,8 @@ function Lancamentos(){
         <section id="lancamentos">
             <h2>APROVEITE OS LANÇAMENTOS</h2>
 
-            <div className="img-lateral">
+            <div className="box-cores">
+                <div className="img-lateral">
                 <img src={imgbatom1} alt="" />
                 <img src={imgbatom2} alt="" />
                 <img src={imgbatom3} alt="" />
@@ -35,18 +36,19 @@ function Lancamentos(){
             <img src={cor} alt="" className="img-cor"/>
 
             <div className="card-lancamentos">
-                <img src={estrelas} alt="" />
+                <img src={estrelas} alt="Icone de 5 estrelas amarelas" className="img-estrelas"/>
                 <h3>Matte Premium</h3>
                 <p className="sub">Cores disponíveis</p>
                 <div className="mostruario">
-                    <button onClick={()=>setCor(azul)} className="azul"><img src={elipseazul} alt="Ícone Azul"/></button>
-                    <button onClick={()=>setCor(vermelho)} className="vermelho"><img src={elipsevermelho} alt="Ícone Vermelho"/></button>
-                    <button onClick={()=>setCor(marrom)} className="marrom"><img src={elipsemarrom} alt="Ícone Marrom"/></button>
-                    <button onClick={()=>setCor(base)} className="base"><img src={elipsebase} alt="Ícone Base"/></button>
+                    <button onClick={()=>setCor(azul)} className="azul"><img src={elipseazul} alt="Ícone Azul" className="img-circulo"/></button>
+                    <button onClick={()=>setCor(vermelho)} className="vermelho"><img src={elipsevermelho} alt="Ícone Vermelho" className="img-circulo"/></button>
+                    <button onClick={()=>setCor(marrom)} className="marrom"><img src={elipsemarrom} alt="Ícone Marrom" className="img-circulo"/></button>
+                    <button onClick={()=>setCor(base)} className="base"><img src={elipsebase} alt="Ícone Base" className="img-circulo"/></button>
                 </div>
 
                 <h4>Descrição</h4>
-                <p>O Batom Matte possui uma fórmula inovadora desenvolvida para entregar o máximo de cor na primeira aplicação com um deslize suave e macio. Tem acabamento matte aveludado e manteiga de manga que ajuda a hidratar e a proteger os lábios contra ressecamento. Ajuda na hidratação dos lábios, textura fina e macia que não pesa nos lábios.</p>
+                <p className="descricao-lancamento">O Batom Matte possui uma fórmula inovadora desenvolvida para entregar o máximo de cor na primeira aplicação com um deslize suave e macio. Tem acabamento matte aveludado e manteiga de manga que ajuda a hidratar e a proteger os lábios contra ressecamento. Ajuda na hidratação dos lábios, textura fina e macia que não pesa nos lábios.</p>
+            </div>
             </div>
             
             

@@ -1,12 +1,22 @@
 section {
+
+    padding: 35px;
+}
+
+
+
+.box-cores {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 35px;
 }
 
 h2 {
-    width: 100vw;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -15,7 +25,7 @@ h2 {
     flex-direction: column;
     height: 418px;
     justify-content: space-between;
-    padding: 20px;
+    padding-right: 20px;
 
     img {
         max-width: 130px;
@@ -27,15 +37,49 @@ h2 {
 }
 
 .card-lancamentos {
-    max-width: 500px;
-    height: 378px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: fit-content;
+    height: 418px;
+    justify-content: space-around;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     margin: 30px;
     padding: 20px;
+    font-family: 'Roboto';
+
+    .img-estrelas {
+        width: 110px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
 
     .sub {
         font-size: 10px;
     }
+
+    .mostruario {
+        display: flex;
+        gap: 10px;
+    }
+
+    .img-circulo {
+        width: 55px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .descricao-lancamento {
+        font-size: 16px;
+        width: 420px;
+        text-align: justify;
+    }
+
+
 
     button {
         background-color: transparent;
