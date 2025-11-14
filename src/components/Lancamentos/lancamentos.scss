@@ -1,6 +1,6 @@
 section {
-
     padding: 35px;
+    min-width: 90vw;
 }
 
 
@@ -23,17 +23,17 @@ h2 {
 .img-lateral {
     display: flex;
     flex-direction: column;
-    height: 418px;
+    height: 500px;
     justify-content: space-between;
     padding-right: 20px;
 
     img {
-        max-width: 130px;
+        width: 130px;
     }
 }
 
 .img-cor {
-    height: 418px;
+    height: 500px;
 }
 
 .card-lancamentos {
@@ -41,7 +41,7 @@ h2 {
     flex-direction: column;
     flex-wrap: nowrap;
     max-width: fit-content;
-    height: 418px;
+    height: 500px;
     justify-content: space-around;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     margin: 30px;
