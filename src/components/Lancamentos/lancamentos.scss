@@ -1,10 +1,3 @@
-section {
-    padding: 35px;
-    min-width: 90vw;
-}
-
-
-
 .box-cores {
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +36,7 @@ h2 {
     max-width: fit-content;
     height: 500px;
     justify-content: space-around;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     margin: 30px;
     padding: 20px;
     font-family: 'Roboto';
@@ -54,6 +47,7 @@ h2 {
 
     h3 {
         font-size: 24px;
+        color: #2D2D2D;
     }
 
     .sub {
@@ -84,5 +78,46 @@ h2 {
     button {
         background-color: transparent;
         border: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #lancamentos {
+        h2 {
+            font-size: 20px;
+        }
+
+        .img-lateral {
+            display: none;
+        }
+
+        .img-cor {
+            width: 60vw;
+            height: auto;
+        }
+
+        .card-lancamentos {
+            width: 95vw;
+            align-items: center;
+            height: auto;
+            gap: 10px;
+            padding: 20px 30px;
+
+            h3 {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            h4 {
+                font-size: 15px;
+                font-weight: 600;
+            }
+
+            .descricao-lancamento {
+                font-size: 13px;
+                width: auto;
+            }
+        }
     }
 }
