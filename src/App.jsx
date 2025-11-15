@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Dicas from "./components/Dicas";
 import Lancamentos from "./components/Lancamentos";
 import Novidades from "./components/Novidades"
+import Footer from "./components/Footer";
 //Arquivo principal 
 function App() {
   return(
@@ -13,6 +14,7 @@ function App() {
     <Dicas/>
     <Lancamentos/>
     <Novidades/>
+    <Footer/>
     </>
   )
 }

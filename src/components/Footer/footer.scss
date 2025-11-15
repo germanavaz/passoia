@@ -1,0 +1,63 @@
+#footer {
+    border-top: solid 1px;
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'Roboto';
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .atendimento {
+        li {
+            padding: 10px;
+            padding-left: 0;
+        }
+    }
+
+    .pagamento {
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+        }
+    }
+
+    .redes {
+        .icons {
+            display: flex;
+            gap: 5px;
+            padding-top: 10px;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    #footer {
+        // flex-direction: column;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: left;
+
+        h3,
+        a {
+            font-size: 11px;
+        }
+
+        section {
+            width: 50vw;
+        }
+
+        .pagamento {
+            img {
+                max-width: 28px;
+            }
+        }
+    }
+}
