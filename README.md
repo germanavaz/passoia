@@ -1,16 +1,67 @@
-# React + Vite
+# 💄 Passoia Makeup — Experiência Interativa em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![status](https://img.shields.io/badge/status-finalizado-brightgreen)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Formação Bit](https://img.shields.io/badge/-Formação%20Bit-00BFFF)
+![Vai na Web](https://img.shields.io/badge/-Vai%20na%20Web-6C63FF)
+![L'Oréal](https://img.shields.io/badge/-L'Oréal-000000)
 
-Currently, two official plugins are available:
+O **Passoia Makeup** é um projeto desenvolvido como parte do desafio da  **Formação Bit da L'Oréal em parceria com a Vai na Web**.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A missão deste desafio foi criar uma **página web em React** que simulasse uma experiência de compra mais **visualmente realista e interativa**, ajudando clientes a encontrar o **tom ideal de maquiagem**, uma dor real do mercado que aumenta a insegurança durante a compra e o número de devoluções.
 
-## React Compiler
+O objetivo da Passoia é oferecer uma experiência mais confiável, moderna e acessível.  
+O projeto replica um site de e-commerce de maquiagem com seções de looks, lançamentos, categorias e produtos em destaque.  
+🎨 O foco principal: **interface responsiva + visual atraente + experiência intuitiva**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **JavaScript**
+- **CSS Modules / estilização customizada**
+- **Vite** para build rápido
+
+---
+
+## ⚙️ Funcionalidades atuais
+
+✅ Página construída totalmente em **React**  
+✅ Sistema de "teste virtual" com troca dinâmica de tons 
+✅ Design fiel ao protótipo proposto  
+✅ Estrutura visual que simula e-commerce real  
+✅ Componentização e organização de código  
+✅ Projeto totalmente **responsivo**  
+✅ Seções: banner principal, categorias, lançamentos e novidades  
+
+
+---
+
+## 🌐 Acesse o projeto
+
+👉 **Site publicado:** https://passoia-kohl.vercel.app/  
+👉 **Repositório no GitHub:** https://github.com/germanavaz/passoia
+
+---
+
+## 💡 Aprendizados
+
+Este desafio foi essencial para:
+
+- Praticar **React na prática**, desde componentes até organização do projeto  
+- Desenvolver habilidades de **interpretação e implementação de layouts do Figma**  
+- Criar interfaces **responsivas e funcionais**  
+- Criar um e-commerce visual usando **componentização e props**  
+- Aprender mais sobre **UX aplicado a beleza e cosméticos**  
+- Aumentar a fluidez e confiança no uso de **React + Vite** no dia a dia  
+
+---
+
+## 💬 Conecte-se comigo
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/germana-vaz/)  
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/germana.tech)  
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/germanavaz)
+
